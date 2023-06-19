@@ -1,5 +1,9 @@
 @import url("mainClass.css");
 
+body {
+    background-color: lightcyan;
+}
+
 .bg-black {
     background-color: #000;
 }
@@ -13,8 +17,17 @@
 h1 {
     font-size: 40px;
 }
-h3 {
+h2 {
     font-size: 30px;
+}
+#midleSection {
+    background-color: #333;
+    border-radius: .8em .8em 0 0;
+    height: 600px;
+}
+cite {
+    border-left:3px solid #EEE;
+    padding: .4em;
 }
 footer {
     padding: 1.5em 0;
